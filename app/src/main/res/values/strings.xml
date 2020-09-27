@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">eBANA - system powiadomień</string>
+    <string name="ToolbarName">eBANA - system powiadomień</string>
+    <string name="UnderImageButton">Kliknij, aby przejść dalej</string>
+    <string-array name="zdarzenia">
+        <item>AWARIA</item>
+        <item>WYPADEK</item>
+        <item>USTERKA</item>
+        <item>INFO</item>
+    </string-array>
+</resources>

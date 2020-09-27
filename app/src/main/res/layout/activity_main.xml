@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_warning"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/caution"
+        android:layout_alignLeft="@+id/warning"
+        android:layout_above="@+id/warning"
+        />
+    <Button
+        android:id="@+id/warning"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/X"
+        android:background="#F44336"
+        android:fontFamily="@font/baloo_thambi"
+        android:shadowColor="#FF0000"
+        android:shadowRadius="50"
+        android:text="AWARIE"
+        android:layout_toLeftOf="@+id/X"
+        android:layout_marginRight="25dp"
+        android:textColor="#FFFFFF"
+        android:textSize="10pt" />
+
+    <ImageView
+        android:id="@+id/img_accident"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/X"
+        app:srcCompat="@drawable/railway"
+        android:layout_toLeftOf="@+id/X"
+        android:layout_marginRight="25dp"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:id="@+id/accident"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="#F44336"
+        android:fontFamily="@font/baloo_thambi"
+        android:text="WYPADKI"
+        android:layout_below="@id/img_accident"
+        android:layout_alignLeft="@+id/img_accident"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:textSize="10pt" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="115dp"
+        android:layout_alignRight="@+id/fixing"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/fix"
+        android:layout_above="@+id/fixing"/>
+
+    <Button
+        android:id="@+id/fixing"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/X"
+        android:layout_toRightOf="@+id/X"
+        android:layout_marginLeft="25dp"
+        android:background="#F44336"
+        android:fontFamily="@font/baloo_thambi"
+        android:text="USTERKI"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:textSize="10pt" />
+
+
+
+    <ImageView
+        android:id="@+id/img_info"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/X"
+        android:layout_toRightOf="@+id/X"
+        android:layout_marginLeft="25dp"
+        app:srcCompat="@drawable/train_1" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/img_info"
+        android:layout_toRightOf="@+id/X"
+        android:layout_alignStart="@+id/img_info"
+        android:background="#F44336"
+        android:fontFamily="@font/baloo_thambi"
+        android:text="INFO"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/addEvent"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/X"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#F44336"
+        android:fontFamily="@font/baloo_thambi"
+        android:text="DODAJ ZDARZENIE"
+        android:textColor="#FFFFFF"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="X"
+
+        />
+
+
+</RelativeLayout>

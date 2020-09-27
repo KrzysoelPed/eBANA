@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    tools:context=".Awarie">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/X"
+        android:layout_marginBottom="250dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/baloo_thambi"
+        android:text="AKTUALNE AWARIE"
+        android:textAlignment="center"
+        android:textColor="@color/MainColorRed"
+        android:textSize="15pt" />
+
+    <TextView
+        android:id="@+id/ActualDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/X"
+        android:layout_marginBottom="220dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/baloo_thambi"
+        android:text="TextView"
+        android:textSize="12pt" />
+
+
+
+    <TextView
+        android:id="@+id/X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="X"
+
+        />
+
+</RelativeLayout>

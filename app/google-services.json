@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "719814271626",
+    "firebase_url": "https://ebana-be73e.firebaseio.com",
+    "project_id": "ebana-be73e",
+    "storage_bucket": "ebana-be73e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719814271626:android:3b686bc05308abdd290373",
+        "android_client_info": {
+          "package_name": "com.kp.ebana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719814271626-252iov28v36b5h766a17ehv6cqi4ij8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kp.ebana",
+            "certificate_hash": "9f0b8ef0778903f2bef265f6266b93c723669a70"
+          }
+        },
+        {
+          "client_id": "719814271626-2mr5ao7do63vpi2vn7vb68if10ecnf53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX_GFO6r-EYxL1AzsP1VJql5t4PZNM5M8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719814271626-2mr5ao7do63vpi2vn7vb68if10ecnf53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
