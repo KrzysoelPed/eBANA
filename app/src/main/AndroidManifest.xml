@@ -12,9 +12,11 @@
         <activity android:name=".AddRecord"/>
         <activity android:name=".CalendarActivity"/>
         <activity android:name=".EventClass"/>
-        <activity android:name=".Posts"></activity>
+        <activity android:name=".Record"></activity>
         <activity android:name=".Awarie" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

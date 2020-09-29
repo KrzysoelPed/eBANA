@@ -2,29 +2,23 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@null"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:animationCache="false"
-    >
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="750dp"
-        android:layout_height="200dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_above="@+id/X"
-        android:layout_marginBottom="150dp"
-        app:srcCompat="@drawable/ebana_2_bez_tla" />
+
+
+
+
 
     <Button
         android:id="@+id/addEvent"
-        android:layout_width="250dp"
+        android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_below="@+id/X"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="270dp"
         android:background="#F44336"
         android:fontFamily="@font/baloo_thambi"
         android:text="DODAJ ZDARZENIE"
@@ -35,17 +29,23 @@
         android:id="@+id/recyclerview_event"
         android:layout_width="match_parent"
         android:layout_height="700dp"
-        android:paddingTop="120dp"
-        android:background="@null"
-        android:layout_marginBottom="150dp" />
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="100dp" />
 
     <TextView
         android:id="@+id/X"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text=""
+        android:text="X"
         />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/X"
+        android:layout_marginBottom="250dp"
+        app:srcCompat="@drawable/ebana_2_bez_tla" />
 
 </RelativeLayout>

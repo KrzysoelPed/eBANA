@@ -37,8 +37,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="X"
+        android:text=" "
 
         />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_event"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="50dp" />
 
 </RelativeLayout>

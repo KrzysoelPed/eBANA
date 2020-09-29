@@ -33,7 +33,6 @@ public class EventClass extends AppCompatActivity implements AdapterView.OnItemS
         spinner.setAdapter (adapter);
         spinner.setOnItemSelectedListener(this);
 
-        openCal = findViewById (R.id.openCalendar);
         date = findViewById (R.id.Date_event);
 
 
