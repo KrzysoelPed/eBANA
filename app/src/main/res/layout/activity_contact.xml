@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Sign">
+
+    <TextView
+        android:id="@+id/X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="X"
+        />
+
+    <TextView
+        android:id="@+id/dane_1"
+        android:layout_width="500dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_above="@id/X"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPersonName"
+        android:text="Dane kontaktowe" />
+    <ImageView
+        android:id="@+id/person_contact"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/X"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="120dp"
+        app:srcCompat="@drawable/business_man" />
+
+    <TextView
+        android:id="@+id/dane_2"
+        android:layout_width="500dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_toRightOf="@id/person_contact"
+        android:layout_above="@id/X"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPersonName"
+        android:text="Krzysztof Peda" />
+
+    <ImageView
+        android:id="@+id/adress_contact"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/X"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/navigation" />
+
+    <TextView
+        android:id="@+id/dane_3"
+        android:layout_width="500dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_above="@id/X"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/adress_contact"
+        android:inputType="textPersonName"
+        android:text="Czempiń, ul. Polna 9" />
+    <TextView
+        android:id="@+id/dane_4"
+        android:layout_width="500dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_below="@id/X"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPersonName"
+        android:text="Telefon, adres e-mail" />
+
+    <ImageView
+        android:id="@+id/call_contact"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/X"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/videocall" />
+    <TextView
+        android:id="@+id/telefon_kontakt"
+        android:layout_width="500dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@id/X"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@id/call_contact"
+        android:text="tel: +48 664 173 397"
+        />
+
+    <ImageView
+        android:id="@+id/email_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/X"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/email" />
+    <TextView
+        android:id="@+id/email_kontakt"
+        android:layout_width="500dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@id/X"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:layout_toRightOf="@id/email_image"
+        android:inputType="textPersonName"
+        android:text="e-mail: krzysztof@retia.pl"
+        />
+
+
+
+
+</RelativeLayout>
