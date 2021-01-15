@@ -16,8 +16,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
 
 public class EventClass extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -55,7 +53,6 @@ public class EventClass extends AppCompatActivity implements AdapterView.OnItemS
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        notify ();
 
 
     }

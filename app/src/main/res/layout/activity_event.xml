@@ -116,75 +116,69 @@
         android:ems="10"
         android:inputType="datetime|phone|time" />
 
-
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="31dp"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/X"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="109dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/baloo_thambi"
         android:text="Rodzaj zdarzenia"
         android:textAlignment="center"
-        android:textSize="25dp" />
+        android:textSize="15sp" />
+
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="211dp"
         android:layout_height="35dp"
         android:layout_below="@+id/X"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="100dp"
-        android:paddingTop="50px"
-        android:textAlignment="center" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:textAlignment="center"
+        android:paddingTop="50px" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/X"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="135dp"
+        android:layout_marginTop="140dp"
         android:fontFamily="@font/baloo_thambi"
         android:text="Opis zdarzenia"
         android:textAlignment="center"
-        android:textSize="25dp" />
-
+        android:textSize="15sp" />
 
     <EditText
         android:id="@+id/info_event"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/X"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="179dp"
-        android:layout_marginEnd="76dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine" />
+
+
 
     <Button
         android:id="@+id/addbuttton"
         android:layout_width="280dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/X"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="241dp"
-        android:layout_marginEnd="64dp"
         android:background="#F44336"
-        android:clickable="true"
-        android:focusable="auto"
         android:fontFamily="@font/baloo_thambi"
+        android:clickable="true"
+        android:layout_below="@+id/X"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:textColor="#FFFFFF"
+        android:focusable="auto"
         android:onClick="AddRecord"
         android:text="DODAJ ZDARZENIE"
-        android:textColor="#FFFFFF"
-        android:textSize="9pt" />
-
-
-
+        android:textSize="9pt"/>
 
     <TextView
         android:id="@+id/X"

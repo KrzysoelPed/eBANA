@@ -1,12 +1,10 @@
 package com.kp.ebana;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -16,17 +14,10 @@ import org.w3c.dom.Text;
 
 import java.util.List;
 
-import static androidx.core.app.ActivityCompat.startActivityForResult;
-import static androidx.core.content.ContextCompat.startActivity;
-
 public class RecyclerViewConfig {
-
 
     private Context mContext;
     private EventAdapter mEventAdapter;
-    private RecyclerViewClickListener listener;
-
-
     public void setConfig(RecyclerView recyclerView, Context context, List<Record> awarie, List<String> keys)
     {
         mContext = context;
@@ -52,6 +43,7 @@ public class RecyclerViewConfig {
                     mPlace = (TextView) itemView.findViewById (R.id.place_of_event);
                     mData = (TextView) itemView.findViewById (R.id.date_of_event);
                     mHour = (TextView) itemView.findViewById (R.id.hour_of_value);
+
 
                 }
 
@@ -91,10 +83,9 @@ public class RecyclerViewConfig {
                     return  mRecordList.size ();
                 }
             }
-            public interface RecyclerViewClickListener
+
+            public interface onItemListener
             {
-                void onClick(View v, int position);
+                void onItemClick (int position);
             }
-
-
 }
